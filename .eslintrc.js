@@ -10,8 +10,8 @@ module.exports = {
 		'prettier',
 	],
 	plugins: [],
-	// add your custom rules here
 	rules: {
+		'vue/no-v-html': 0,
 		'vue/first-attribute-linebreak': 0,
 		'vue/multi-word-component-names': 0
 	},
